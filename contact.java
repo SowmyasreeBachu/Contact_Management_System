@@ -22,6 +22,12 @@ public class contact {
 
         String Contactnumber = contactNumber.next();
 
+        Scanner email = new Scanner(System.in);
+
+        System.out.println(" Enter email ID: \n");
+
+        String Email = email.next();
+
         System.out.println(" \n Enter the second contact details \n");
 
 
@@ -38,6 +44,12 @@ public class contact {
 
         String ContactnumberTwo = contactNumberTwo.next();
 
+        Scanner emailOne = new Scanner(System.in);
+
+        System.out.println(" Enter email ID: \n");
+
+        String EmailOne = emailOne.next();
+
         System.out.println("\n Enter the Third contact details \n");
 
 
@@ -52,6 +64,12 @@ public class contact {
 
         System.out.println(" Enter contact number: \n");
 
+        Scanner emailTwo = new Scanner(System.in);
+
+        System.out.println(" Enter email ID: \n");
+
+        String EmailTwo = emailTwo.next();
+
         String Contactnumberthree = contactNumberThree.next();
 
 
@@ -60,13 +78,13 @@ public class contact {
 
 
    System.out.println("\n First contact details: \n\n" + "Contact Name:" + Contactname + "\n" + "Contact Number:"
-                + Contactnumber);
+                + Contactnumber  + "\n" + "Email ID" + Email);
 
         System.out.println("\n Second contact details: \n\n" + "Contact Name:" + ContactnameTwo + "\n"
-                + "Contact Number:" + ContactnumberTwo);
+                + "Contact Number:" + ContactnumberTwo + "\n" + "Email ID" + EmailOne);
 
         System.out.println("\n Third contact details: \n\n" + "Contact Name:" + Contactnamethree + "\n"
-                + "Contact Number:" + Contactnumberthree);
+                + "Contact Number:" + Contactnumberthree + "\n" + "Email ID" + EmailTwo);
 
     }
 }
