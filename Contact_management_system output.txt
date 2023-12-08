@@ -1,0 +1,48 @@
+D:\Term_Project>javac contact.java
+
+D:\Term_Project>java contact
+
+ Team members: Sowmya Sree
+
+ Enter contact Name:
+
+Joe
+ Enter contact number:
+
+9874568762
+
+ Enter the second contact details
+
+ Enter contact Name:
+
+Ashwitha
+ Enter contact number:
+
+9875897462
+
+ Enter the Third contact details
+
+ Enter contact Name:
+
+Likhitha
+ Enter contact number:
+
+9012407854
+
+ Saved Contact Details:
+
+
+ First contact details:
+
+Contact Name:Joe
+Contact Number:9874568762
+
+ Second contact details:
+
+Contact Name:Ashwitha
+Contact Number:9875897462
+
+ Third contact details:
+
+Contact Name:Likhitha
+Contact Number:9012407854
